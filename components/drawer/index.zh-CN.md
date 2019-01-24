@@ -28,7 +28,7 @@ title: Drawer
 | bodyStyle | 可用于设置 Drawer 的样式，调整浮层位置等 | object | - |
 | title | 标题 | string \| ReactNode | - |
 | visible | Drawer 是否可见 | boolean | - |
-| width | 宽度 | string \| number | 256 |
+| width | 宽度, 在 placement 为 `left` 或 `right` 时使用 | string \| number | 256 |
 | height | 高度, 在 `placement` 为 `top` 或 `bottom` 时使用 | string \| number | 256 |
 | className | 对话框外层容器的类名 | string | - |
 | zIndex | 设置 Drawer 的 `z-index` | Number | 1000 |
